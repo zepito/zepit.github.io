@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+    
+
+	<head>
+		<meta charset="utf-8">
+		<title>league of legends - űrlap</title>
+		<link href="weblap.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="media/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+	<body id="body">
+<script src="urlap.js"></script>
+<header>
+    <div class="topnav">
+        <a href="index.html">Kezdőlap</a>
+        <a href="role.html">Roleok</a>
+        <a class="active" href="űrlap.html">Űrlap</a>
+        <a href="történet.html">Történet</a>
+      </div>
+</header>
+<button onclick="Gyengénlátóknak()">Gyengénlátóknak</button>
+<p style="background-image: url('Light_blue.png');"></p>
+<fieldset><label for="játék">Játszottál már league of legendsel?</label>
+<input type="checkbox" id="játék" value="igen">
+<fieldset>
+<p>Mennyire ajánlanád a barátaidnak?<br>
+    <input type="radio" name="ertekeles" id="1esértékelés" value="1">
+    <label for="1esértékelés">1</label>
+    <input type="radio" name="ertekeles" id="2esértékelés" value="2">
+    <label for="2esértékelés">2</label>
+    <input type="radio" name="ertekeles" id="3asértékelés" value="3">
+    <label for="3asértékelés">3</label>
+    <input type="radio" name="ertekeles" id="4esértékelés" value="4">
+    <label for="4esértékelés">4</label>
+	<input type="radio" name="ertekeles" id="5ösértékelés" value="5">
+    <label for="5ösértékelés">5</label>
+</p>
+</fieldset>
+<fieldset>
+<p>Hány órát szamítógépezel 1 nap?<br>
+    <input type="radio" name="ido" id="1órát" value="1">
+    <label for="1órát">1</label>
+    <input type="radio" name="ido" id="2órát" value="2">
+    <label for="2órát">2</label>
+    <input type="radio" name="ido" id="3órát" value="3">
+    <label for="3órát">3</label>
+    <input type="radio" name="ido" id="4órát" value="4">
+    <label for="4órát">4</label>
+	<input type="radio" name="ido" id="5órát" value="5">
+    <label for="5órát">5+</label>
+</p>
+</fieldset>
+<label for="megjegyzés"><strong>Megjegyzések</strong></label><br>
+<textarea cols="40" rows="10" maxlength="150" id="megjegyzések" placeholder="megjegyzések az űrlappal kapcsolatban"></textarea>
+
+<fieldset>
+	<legend>Adatok elküldése</legend>
+	<a href="mailto: abc@example.com"><input type="submit" value="Elküld"></a>
+	<input type="reset" value="Töröl">
+</fieldset>
+</fieldset>
+<img src="images.jpg" alt="köszönjük hogy kitöltötted" width="30%">
+
